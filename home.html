@@ -452,14 +452,6 @@
                                     autoplayTimeout: 2000,
                                     autoplayHoverPause: true
                                 });
-                                $('.custom1').owlCarousel({
-                                    animateOut: 'slideOutDown',
-                                    animateIn: 'flipInX',
-                                    items: 1,
-                                    margin: 30,
-                                    stagePadding: 30,
-                                    smartSpeed: 450
-                                });
                             });
                         </script>
                     </div>
@@ -568,12 +560,6 @@
                                     autoplayTimeout: 1000,
                                     autoplayHoverPause: true
                                 });
-                                $('.play').on('click', function () {
-                                    owl.trigger('play.owl.autoplay', [1000])
-                                })
-                                $('.stop').on('click', function () {
-                                    owl.trigger('stop.owl.autoplay')
-                                })
                             })
                         </script>
                     </div>
@@ -674,25 +660,6 @@
                                             class="insta_imge" alt="insta_image"></a>
                                 </div>
                             </div>
-                            <script>
-                                $(document).ready(function () {
-                                    var owl = $('.owl-carousel');
-                                    owl.owlCarousel({
-                                        items: 4,
-                                        loop: true,
-                                        margin: 10,
-                                        autoplay: true,
-                                        autoplayTimeout: 1000,
-                                        autoplayHoverPause: true
-                                    });
-                                    $('.play').on('click', function () {
-                                        owl.trigger('play.owl.autoplay', [1000])
-                                    })
-                                    $('.stop').on('click', function () {
-                                        owl.trigger('stop.owl.autoplay')
-                                    })
-                                })
-                            </script>
                         </div>
                     </div>
                 </section>
@@ -831,19 +798,6 @@
 
                         </div>
                     </div>
-                    <script>
-                        $(document).ready(function () {
-                            var owl = $(".owl-carousel");
-                            owl.owlCarousel({
-                                items: 4,
-                                loop: true,
-                                margin: 10,
-                                autoplay: true,
-                                autoplayTimeout: 2000,
-                                autoplayHoverPause: true,
-                            });
-                        });
-                    </script>
                 </div>
             </div>
         </section>
